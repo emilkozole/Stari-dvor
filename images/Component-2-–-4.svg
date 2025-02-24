@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="178.875" viewBox="0 0 26 178.875">
+  <g id="Component_2_4" data-name="Component 2 – 4" transform="translate(5.875 16)">
+    <text id="Contact" transform="translate(15.125 69) rotate(-90)" fill="#d2cec9" font-size="20" font-family="RobotoMono-Regular, Roboto Mono"><tspan x="0" y="0">Contact</tspan></text>
+    <g id="right" transform="translate(-85.333 109.625) rotate(-90)">
+      <g id="Group_20" data-name="Group 20" transform="translate(0 85.333)">
+        <path id="Path_17" data-name="Path 17" d="M20.872,92.023l-6.563-6.563a.437.437,0,0,0-.619.619L19.506,91.9l-71.818-.128a.437.437,0,0,0-.438.438.437.437,0,0,0,.438.438l71.818.128-5.816,5.816a.437.437,0,1,0,.619.619l6.563-6.563A.437.437,0,0,0,20.872,92.023Z" transform="translate(0 -85.333)" fill="none" stroke="#d2cec9" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
