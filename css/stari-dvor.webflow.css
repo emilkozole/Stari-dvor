@@ -3609,6 +3609,10 @@
   max-height: 400px;
 }
 
+.bold-text {
+  font-weight: 400;
+}
+
 @media screen and (min-width: 1920px) {
   .section-title {
     position: relative;
@@ -4886,6 +4890,7 @@
 
   .image-12 {
     width: 90%;
+    margin-top: -140px;
   }
 }
 
