@@ -272,6 +272,7 @@
 }
 
 .container.outro {
+  background-image: url('../images/stari_dvor-12.jpg');
   flex-flow: row;
   justify-content: center;
   align-items: center;
