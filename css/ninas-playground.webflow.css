@@ -79,7 +79,7 @@
   background-size: cover;
   max-width: none;
   height: 100%;
-  padding: 40px 40px 40px 0;
+  padding: 40px 0;
 }
 
 .hero-container {
@@ -268,9 +268,13 @@
 }
 
 .container.outro {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
+  display: flex;
 }
 
 .subheading {
@@ -629,9 +633,9 @@
   max-width: 720px;
   margin-top: auto;
   margin-bottom: auto;
-  display: inline-block;
+  display: block;
   position: relative;
-  inset: 25% 0% 0%;
+  inset: 0%;
   overflow: visible;
 }
 
@@ -850,6 +854,10 @@
 
   .paragraph.black.footer {
     margin-top: 0;
+  }
+
+  .section.green {
+    padding: 0;
   }
 
   .section.green.body {
