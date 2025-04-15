@@ -246,12 +246,16 @@
 .section.green {
   background-color: var(--_colors---green);
   margin: 0;
-  padding: 40px;
+  padding: 0;
 }
 
 .section.green.body {
   height: 100vh;
   margin: 40px;
+}
+
+.section.green.end {
+  padding: 40px;
 }
 
 .container {
@@ -282,6 +286,7 @@
   margin-top: 0;
   margin-bottom: 40px;
   font-size: 2.2em;
+  font-weight: 400;
   line-height: 1.2em;
 }
 
@@ -862,6 +867,10 @@
 
   .section.green.body {
     margin: 0;
+  }
+
+  .section.green.end {
+    padding: 0;
   }
 
   .container {
