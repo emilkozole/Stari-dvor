@@ -275,6 +275,10 @@
   padding: 40px;
 }
 
+.section.green.booking {
+  height: auto;
+}
+
 .container {
   object-fit: cover;
   max-width: none;
@@ -793,6 +797,11 @@
 }
 
 .container-navbar {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -802,7 +811,7 @@
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
-  display: flex;
+  display: grid;
 }
 
 .navbar-button-wrapper {
@@ -825,6 +834,13 @@
 
 .navbar-cta {
   padding-right: 50px;
+}
+
+.book {
+  max-width: 1300px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -1117,8 +1133,9 @@
 
   .logo {
     width: 140px;
+    min-width: 120px;
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 0;
   }
 
   .description {
@@ -1147,6 +1164,7 @@
     align-self: auto;
     padding-top: 5px;
     padding-left: 0;
+    position: static;
   }
 
   .navbar-button.w--open {
@@ -1166,15 +1184,20 @@
     position: static;
   }
 
+  .navbar-brand.w--current {
+    padding-right: 0;
+  }
+
   .navbar-menu {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0;
     font-size: 14px;
     display: block;
+    position: static;
   }
 
   .container-navbar {
+    align-items: stretch;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1188,12 +1211,87 @@
   place-self: center;
 }
 
+#w-node-_84fdd61c-0aa7-74dd-bf7a-bca2ae992bf4-71982817 {
+  justify-self: start;
+}
+
 #w-node-ee34e449-25ac-2aca-8468-ad4771982822-71982817, #w-node-ee34e449-25ac-2aca-8468-ad4771982827-71982817, #w-node-ee34e449-25ac-2aca-8468-ad4771982829-71982817, #w-node-ee34e449-25ac-2aca-8468-ad477198282b-71982817 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-4c650700, #w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-90697a2d, #w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-4d426dcb {
+#w-node-_2db63887-659f-3d0b-f820-888af06c084e-71982817 {
+  justify-self: center;
+}
+
+#w-node-_1ef9f239-0519-2a26-0e4d-6091af6137a3-71982817 {
+  justify-self: end;
+}
+
+#w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-4c650700 {
   place-self: center;
+}
+
+#w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a499-dfe2a497 {
+  justify-self: start;
+}
+
+#w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4a3-dfe2a497, #w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4a8-dfe2a497, #w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4aa-dfe2a497, #w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4ac-dfe2a497 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4b6-dfe2a497 {
+  justify-self: center;
+}
+
+#w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a4b9-dfe2a497 {
+  justify-self: end;
+}
+
+#w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-90697a2d {
+  place-self: center;
+}
+
+#w-node-_193caf8c-c542-368b-9df2-351e597138e3-597138e1 {
+  justify-self: start;
+}
+
+#w-node-_193caf8c-c542-368b-9df2-351e597138ed-597138e1, #w-node-_193caf8c-c542-368b-9df2-351e597138f2-597138e1, #w-node-_193caf8c-c542-368b-9df2-351e597138f4-597138e1, #w-node-_193caf8c-c542-368b-9df2-351e597138f6-597138e1 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_193caf8c-c542-368b-9df2-351e59713900-597138e1 {
+  justify-self: center;
+}
+
+#w-node-_193caf8c-c542-368b-9df2-351e59713903-597138e1 {
+  justify-self: end;
+}
+
+#w-node-_8b2b9212-ac78-8827-ff95-6e77471891bd-4d426dcb {
+  place-self: center;
+}
+
+#w-node-_156897cc-c64c-a7ff-c427-c548473f6518-473f6516 {
+  justify-self: start;
+}
+
+#w-node-_156897cc-c64c-a7ff-c427-c548473f6522-473f6516, #w-node-_156897cc-c64c-a7ff-c427-c548473f6527-473f6516, #w-node-_156897cc-c64c-a7ff-c427-c548473f6529-473f6516, #w-node-_156897cc-c64c-a7ff-c427-c548473f652b-473f6516 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_156897cc-c64c-a7ff-c427-c548473f6535-473f6516 {
+  justify-self: center;
+}
+
+#w-node-_156897cc-c64c-a7ff-c427-c548473f6538-473f6516 {
+  justify-self: end;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_84fdd61c-0aa7-74dd-bf7a-bca2ae992bf4-71982817, #w-node-c3e5b9d4-249e-8a4f-8700-8e10dfe2a499-dfe2a497, #w-node-_193caf8c-c542-368b-9df2-351e597138e3-597138e1, #w-node-_156897cc-c64c-a7ff-c427-c548473f6518-473f6516 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    place-self: center start;
+  }
 }
 
 
